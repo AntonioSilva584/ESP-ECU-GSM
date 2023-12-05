@@ -1,0 +1,11 @@
+###TODO:
+- REMEMBER TO WORK ON SPINLOCKS (isr issues)
+
+- BASIC CAN LOGGING (in progress)
+- GPRS
+- BLUETOOTH
+- GPS
+
+## How does CAN work in the SCU:
+
+    The interrupt will use xTaskResumeFromISR to resume the can filter task.
